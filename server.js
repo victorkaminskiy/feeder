@@ -10,7 +10,7 @@ var app = express();
 var port = process.env.PORT || 8080;
 
 // Connect to our mongo database
-mongoose.connect('mongodb://localhost/feeds');
+mongoose.connect('mongodb://feedcontrol:feedcontrol@jello.modulusmongo.net:27017/ixEve3je');
 
 
 app.use(function(req, res, next) {
@@ -36,6 +36,6 @@ app.post('/feed', routes.add_feed);
 
 
 
-app.listen(8080, function() {
+app.listen(port, function() {
     console.log('Server started: http://localhost:' + port + '/');
 });
