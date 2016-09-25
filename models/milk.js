@@ -13,12 +13,25 @@ schema.statics.getFeeds = function(callback) {
     var feeds = [];
 
     // Query the db, using skip and limit to achieve page chunks
-    Feed.find({}).sort({date: 'desc'}).exec(function(err,docs){
+    Feed.find({}).sort({date: 'asc'}).exec(function(err,docs){
 
         // If everything is cool...
         if(!err) {
-            feeds = docs;  // We got tweets
+            feeds = docs;  // We got feeds
         }
+        var sumForDay=0
+        var day=0
+        feeds = feeds.map(function(feed){
+            var curDay=feed.date.getUTCDate()
+            if(day!=curDay){
+                day=curDay
+                sumForDay=0
+            }
+            sumForDay+=feed.amount
+            return ( {id:feed._id, amount:feed.amount, source:feed.source, date:feed.date, sum:sumForDay})
+        });
+
+        console.log(feeds)
         // Pass them back to the specified callback
         callback(feeds);
 
@@ -37,7 +50,7 @@ schema.statics.getFeedsToday = function(callback) {
     endTime.setHours(23,59,59,999);
 
     // Query the db, using skip and limit to achieve page chunks
-    Feed.find({date: {$gte: startTime, $lt: endTime}}).sort({date: 'desc'}).exec(function(err,docs){
+    Feed.find({date: {$gte: startTime, $lt: endTime}}).sort({date: 'asc'}).exec(function(err,docs){
 
         // If everything is cool...
         if(!err) {

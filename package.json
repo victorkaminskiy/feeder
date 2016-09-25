@@ -2,13 +2,7 @@
   "name": "react-isomorph",
   "version": "0.0.0",
   "description": "Feed logger",
-  "main": "app.js",
-  "scripts": {
-//    "watch": "watchify app.js -o public/js/bundle.js -v",
-//    "browserify": "browserify app.js -o public/js/bundle.js -d",
-//    "build": "npm run browserify ",
-    "start": "npm install"
-  },
+  "main": "server.js",
   "author": "Victor Kaminskiy",
   "license": "MIT",
   "dependencies": {
@@ -19,14 +13,7 @@
     "node-jsx": "~0.12.4",
     "react": "~0.14.6"
   },
-  "devDependencies": {
-//    "browserify": "~6.0.3",
-    "nodemon": "^1.2.1",
-    "reactify": "~1.1.1"
-//    "uglify-js": "~2.4.15",
-//    "watchify": "^3.1.1"
-  },
   "engines" : {
-    "node": "6.x.x"
+    "node": "6.6.0"
   }
 }

@@ -1,0 +1,31 @@
+{"_id":{"$oid":"57e711fa5727302f7c707ba3"},"amount":90,"source":"Hipp","date":{"$date":"2016-09-23T10:00:30.926Z"},"__v":0}
+{"_id":{"$oid":"57e711fa5727302f7c707ba4"},"amount":60,"source":"Hipp","date":{"$date":"2016-09-23T13:15:30.926Z"},"__v":0}
+{"_id":{"$oid":"57e711fa5727302f7c707ba5"},"amount":60,"source":"Hipp","date":{"$date":"2016-09-23T14:30:30.926Z"},"__v":0}
+{"amount":30,"source":"Bottle milk","date":{"$date":"2016-09-23T17:00:30.926Z"},"__v":0}
+{"amount":70,"source":"Hipp","date":{"$date":"2016-09-23T17:00:30.926Z"},"__v":0}
+{"amount":42,"source":"Bottle milk","date":{"$date":"2016-09-23T20:00:30.926Z"},"__v":0}
+{"amount":20,"source":"Hipp","date":{"$date":"2016-09-23T20:00:30.926Z"},"__v":0}
+{"amount":58,"source":"Bottle milk","date":{"$date":"2016-09-23T23:00:30.926Z"},"__v":0}
+{"amount":60,"source":"Hipp","date":{"$date":"2016-09-24T01:00:30.926Z"},"__v":0}
+{"amount":45,"source":"Bottle milk","date":{"$date":"2016-09-24T02:15:30.926Z"},"__v":0}
+{"amount":40,"source":"Hipp","date":{"$date":"2016-09-24T02:45:30.926Z"},"__v":0}
+{"amount":20,"source":"Bottle milk","date":{"$date":"2016-09-24T06:50:30.926Z"},"__v":0}
+{"amount":70,"source":"Hipp","date":{"$date":"2016-09-24T06:50:30.926Z"},"__v":0}
+{"amount":50,"source":"Bottle milk","date":{"$date":"2016-09-24T09:40:30.926Z"},"__v":0}
+{"amount":40,"source":"Hipp","date":{"$date":"2016-09-24T10:00:30.926Z"},"__v":0}
+{"amount":90,"source":"Hipp","date":{"$date":"2016-09-24T13:07:30.926Z"},"__v":0}
+{"amount":50,"source":"Hipp","date":{"$date":"2016-09-24T15:30:30.926Z"},"__v":0}
+{"amount":90,"source":"Hipp","date":{"$date":"2016-09-24T19:00:30.926Z"},"__v":0}
+{"amount":45,"source":"Bottle milk","date":{"$date":"2016-09-24T22:00:30.926Z"},"__v":0}
+{"amount":25,"source":"Bottle milk","date":{"$date":"2016-09-24T22:35:30.926Z"},"__v":0}
+{"amount":35,"source":"Hipp","date":{"$date":"2016-09-24T23:00:30.926Z"},"__v":0}
+{"amount":25,"source":"Bottle milk","date":{"$date":"2016-09-25T00:30:30.926Z"},"__v":0}
+{"amount":35,"source":"Hipp","date":{"$date":"2016-09-25T00:45:30.926Z"},"__v":0}
+{"amount":55,"source":"Hipp","date":{"$date":"2016-09-25T03:00:30.926Z"},"__v":0}
+{"amount":60,"source":"Hipp","date":{"$date":"2016-09-25T06:30:30.926Z"},"__v":0}
+{"amount":30,"source":"Hipp","date":{"$date":"2016-09-25T09:30:30.926Z"},"__v":0}
+{"amount":60,"source":"Bottle milk","date":{"$date":"2016-09-25T09:30:30.926Z"},"__v":0}
+{"amount":60,"source":"Bottle milk","date":{"$date":"2016-09-25T14:00:30.926Z"},"__v":0}
+{"amount":35,"source":"Hipp","date":{"$date":"2016-09-25T14:00:30.926Z"},"__v":0}
+{"amount":50,"source":"Bottle milk","date":{"$date":"2016-09-25T18:00:30.926Z"},"__v":0}
+{"amount":50,"source":"Hipp","date":{"$date":"2016-09-25T18:15:30.926Z"},"__v":0}
