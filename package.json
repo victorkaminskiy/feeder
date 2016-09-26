@@ -11,7 +11,7 @@
     "express-handlebars": "~1.1.0",
     "mongoose": "^4.2.6",
     "node-jsx": "~0.12.4",
-    "react": "~0.14.6"
+    "react": "~15.3.2"
   },
   "engines" : {
     "node": "6.6.0"

@@ -10,8 +10,8 @@ var app = express();
 var port = process.env.PORT || 8080;
 
 // Connect to our mongo database
-// mongoose.connect('mongodb://feedcontrol:feedcontrol@jello.modulusmongo.net:27017/ixEve3je');
-mongoose.connect('mongodb://localhost:27017/feeds');
+mongoose.connect('mongodb://feedcontrol:feedcontrol@jello.modulusmongo.net:27017/ixEve3je');
+//mongoose.connect('mongodb://localhost:27017/feeds');
 
 
 app.use(function(req, res, next) {

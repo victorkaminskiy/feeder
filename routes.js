@@ -12,8 +12,8 @@ module.exports = {
     },
 
     add_feed: function(req, res) {
-        var newFeed = new Feed({ amount: req.body.amount, source: req.body.source, });
-        console.log('add feed')
+        var newFeed = new Feed({ amount: req.body.amount, source: req.body.source, date: req.body.date});
+        console.log('add feed '+ newFeed)
         newFeed.save(function (err, newFeed) {
             if (err) return console.error(err);
         });
